@@ -1,0 +1,87 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.24.2.86
+Copyright (C) 2017 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: 1 薛佳艺, 1, LIC=RC93N-YJGJ2-BS4YX-HJ0E8-0HQEP-4E8ZI
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.28.0.0
+Toolchain Path:  D:\KEIL5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.28.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.6.0
+Dialog DLL:      TCM.DLL V1.36.2.0
+ 
+<h2>Project:</h2>
+E:\比赛\2025光电\CloudyStationV5.0\CloudyStation\MDK-ARM\CloudyStation.uvprojx
+Project File Date:  08/01/2025
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'D:\KEIL5\ARM\ARMCC\Bin'
+Build target 'CloudyStation'
+compiling myusart.c...
+../MT6701/MT6701.h(6): warning:  #1-D: last line of file ends without a newline
+  float MT6701read2(void);
+../MT6701/MT6701.h(6): warning:  #1-D: last line of file ends without a newline
+  float MT6701read2(void);
+../FOC/FOC.h(32): warning:  #1295-D: Deprecated declaration FOCinit - give arg types
+  void FOCinit();
+../Core/Inc/myusart.h(27): warning:  #1-D: last line of file ends without a newline
+  #endif // __MYUSART_H
+../Core/Inc/pid.h(20): warning:  #1295-D: Deprecated declaration cloudpidinit - give arg types
+  void cloudpidinit();
+../Core/Inc/pid.h(21): warning:  #1295-D: Deprecated declaration cloud1 - give arg types
+  void cloud1();
+../Core/Inc/pid.h(22): warning:  #1295-D: Deprecated declaration cloud2 - give arg types
+  void cloud2();
+../Core/Inc/pid.h(23): warning:  #1-D: last line of file ends without a newline
+  #endif // __PID_H
+../Core/Inc/myusart.h(23): warning:  #1295-D: Deprecated declaration CameraPrc - give arg types
+  void CameraPrc();
+../Core/Inc/myusart.h(24): warning:  #1295-D: Deprecated declaration L1Prc - give arg types
+  void L1Prc();
+../Core/Inc/myusart.h(26): warning:  #1295-D: Deprecated declaration MsgSendPrc - give arg types
+  void MsgSendPrc();
+../Core/Inc/myusart.h(27): warning:  #1-D: last line of file ends without a newline
+  #endif // __MYUSART_H
+..\Core\Src\myusart.c(88): warning:  #1-D: last line of file ends without a newline
+  }
+..\Core\Src\myusart.c: 13 warnings, 0 errors
+linking...
+Program Size: Code=31108 RO-data=3120 RW-data=344 ZI-data=25088  
+FromELF: creating hex file...
+"CloudyStation\CloudyStation.axf" - 0 Error(s), 13 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.5.1.pack
+                ARM.CMSIS.5.5.1
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.2.0
+
+Package Vendor: Keil
+                https://www.keil.com/pack/Keil.STM32F4xx_DFP.2.17.1.pack
+                Keil.STM32F4xx_DFP.2.17.1
+                STMicroelectronics STM32F4 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_CloudyStation
+  D:\KEIL5\ARM\CMSIS\5.5.1\CMSIS\Core\Include
+  D:\KEIL5\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.2.0
+Build Time Elapsed:  00:00:02
+</pre>
+</body>
+</html>

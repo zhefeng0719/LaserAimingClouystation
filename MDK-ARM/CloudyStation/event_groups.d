@@ -1,0 +1,15 @@
+cloudystation\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/event_groups.c
+cloudystation\event_groups.o: D:\KEIL5\ARM\ARMCC\Bin\..\include\stdlib.h
+cloudystation\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
+cloudystation\event_groups.o: D:\KEIL5\ARM\ARMCC\Bin\..\include\stddef.h
+cloudystation\event_groups.o: D:\KEIL5\ARM\ARMCC\Bin\..\include\stdint.h
+cloudystation\event_groups.o: ../Core/Inc/FreeRTOSConfig.h
+cloudystation\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
+cloudystation\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
+cloudystation\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h
+cloudystation\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h
+cloudystation\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h
+cloudystation\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h
+cloudystation\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h
+cloudystation\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h
+cloudystation\event_groups.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h

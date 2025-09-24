@@ -1,0 +1,15 @@
+{
+    "folders": [
+        {
+            "path": "."
+        }
+    ],
+    "settings": {
+        "files.associations": {
+            "mt6701.h": "c",
+            "myusart.h": "c",
+            "foc.h": "c"
+        }
+    },
+    "extensions": {}
+}

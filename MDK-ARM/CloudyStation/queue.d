@@ -1,0 +1,15 @@
+cloudystation\queue.o: ../Middlewares/Third_Party/FreeRTOS/Source/queue.c
+cloudystation\queue.o: D:\KEIL5\ARM\ARMCC\Bin\..\include\stdlib.h
+cloudystation\queue.o: D:\KEIL5\ARM\ARMCC\Bin\..\include\string.h
+cloudystation\queue.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
+cloudystation\queue.o: D:\KEIL5\ARM\ARMCC\Bin\..\include\stddef.h
+cloudystation\queue.o: D:\KEIL5\ARM\ARMCC\Bin\..\include\stdint.h
+cloudystation\queue.o: ../Core/Inc/FreeRTOSConfig.h
+cloudystation\queue.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
+cloudystation\queue.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
+cloudystation\queue.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h
+cloudystation\queue.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h
+cloudystation\queue.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h
+cloudystation\queue.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h
+cloudystation\queue.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h
+cloudystation\queue.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h
